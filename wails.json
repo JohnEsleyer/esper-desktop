@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "esper",
+  "outputfilename": "esper",
+  "frontend:install": "bun install",
+  "frontend:build": "bun run build",
+  "frontend:dev:watcher": "bun run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Esper Contributor",
+    "email": "dev@local"
+  },
+  "info": {
+    "companyName": "Esper",
+    "productName": "Esper Local Workspace",
+    "productVersion": "1.0.0",
+    "copyright": "MIT"
+  }
+}
